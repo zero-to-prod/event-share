@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7da3dffae03f59af5ed43bb5bad477e4",
+    "content-hash": "8c24827517ccc12c54f951e97250af13",
     "packages": [
         {
             "name": "brick/math",
@@ -2103,6 +2103,57 @@
                 }
             ],
             "time": "2022-12-20T19:00:15+00:00"
+        },
+        {
+            "name": "penance316/laravel-iso8601-validator",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/penance316/laravel-iso8601-validator.git",
+                "reference": "f63bfb69be09c8d76e987698e867d4e5b7787e92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/penance316/laravel-iso8601-validator/zipball/f63bfb69be09c8d76e987698e867d4e5b7787e92",
+                "reference": "f63bfb69be09c8d76e987698e867d4e5b7787e92",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=5.0.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Penance316\\Validators\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nero Denney",
+                    "email": "penance316@gmail.com",
+                    "homepage": "https://nerodenney.com"
+                }
+            ],
+            "description": "laravel iso8601 date validation package",
+            "keywords": [
+                "date",
+                "iso8601",
+                "laravel",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/penance316/laravel-iso8601-validator/issues",
+                "source": "https://github.com/penance316/laravel-iso8601-validator/tree/master"
+            },
+            "time": "2019-01-02T12:58:54+00:00"
         },
         {
             "name": "phpoption/phpoption",

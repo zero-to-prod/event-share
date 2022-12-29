@@ -145,6 +145,7 @@ return [
     'url' => 'The :attribute must be a valid URL.',
     'ulid' => 'The :attribute must be a valid ULID.',
     'uuid' => 'The :attribute must be a valid UUID.',
+    'iso_date' => 'The :attribute must be a valid ISO8601 string.',
 
     /*
     |--------------------------------------------------------------------------
