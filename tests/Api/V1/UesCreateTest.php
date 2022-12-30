@@ -25,7 +25,7 @@ class UesCreateTest extends ApiV1TestCase
         ];
 
         $this->postRoute(ApiV1Routes::ues, $data)
-            ->assertStatus(200)
+            ->assertOk()
             ->assertJson($data);
     }
 }

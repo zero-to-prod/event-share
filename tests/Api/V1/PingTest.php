@@ -10,6 +10,8 @@ class PingTest extends ApiV1TestCase
     /** @test */
     public function ping(): void
     {
-        $this->getRoute(ApiV1Routes::ping)->assertStatus(200)->assertSee(['message' => 'pong']);
+        $this->getRoute(ApiV1Routes::ping)
+            ->assertOk()
+            ->assertSee(['message' => 'pong']);
     }
 }
